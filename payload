@@ -1,0 +1,40 @@
+Wedding Application APi:
+ 1.wedding details payload:
+ End point:localhost:8500/api/weddingdetails
+ 
+ {
+    "venue":"a14",
+    "userid":1,
+    "location":"noida",
+    "weddingDate":"2023-05-05"
+    
+
+}
+ 
+2. welcome messages payload  
+
+End Point:localhost:8500/api/welcomemessages
+{
+"userid":1,
+"welcomemesages":[
+          "test",
+          "test1",
+          "test2"
+      ],
+      "welcomeimage":""
+      
+      }
+      
+      
+ 3.wedding images payload  :
+ End Point:localhost:8500/api/weddingimages
+      {
+      "userid":1,
+      "weddingimages":[
+          "image.jpg",
+          "image1.jpg",
+          "image2.jpg"
+
+      ]
+      
+      }
